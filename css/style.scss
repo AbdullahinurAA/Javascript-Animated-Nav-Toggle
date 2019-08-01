@@ -1,0 +1,13 @@
+$primary-background: #FF4136;
+
+body {
+    background-color: $primary-background;
+}
+
+
+.navigation {
+    // text-align: right;
+    // align-content: flex-end;
+    position: fixed;
+    right: 0;
+}
