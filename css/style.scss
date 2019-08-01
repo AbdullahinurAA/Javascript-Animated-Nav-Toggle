@@ -11,3 +11,11 @@ body {
     position: fixed;
     right: 0;
 }
+
+// #hamburger {
+//     // transform: scale(2);
+// }
+
+.active {
+    transform: scale(2)
+}
