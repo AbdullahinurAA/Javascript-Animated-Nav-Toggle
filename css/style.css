@@ -8,6 +8,14 @@ body {
   right: 0;
 }
 
+.navigator {
+  background-color: #fff;
+  width: 100%;
+  animation: fadeIn 2s linear alternate;
+  position: relative;
+  right: 0;
+}
+
 .active {
   transform: rotate(90deg);
 }
@@ -19,6 +27,15 @@ body {
 .page-active {
   background-color: #0074D9;
   color: #FF4136;
+  content: "<h1>Hello World</h1>";
+}
+
+.hideMe {
+  display: None;
+}
+
+.animatedEntrance {
+  animation: lightSpeedIn 1s ease-in-out 1ms;
 }
 
 /*# sourceMappingURL=style.css.map */
