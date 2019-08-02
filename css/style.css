@@ -12,6 +12,10 @@ body {
   transform: rotate(90deg);
 }
 
+.testId {
+  display: none;
+}
+
 .page-active {
   background-color: #0074D9;
   color: #FF4136;

@@ -24,12 +24,17 @@ body {
 
 .active {
     transform: rotate(90deg);
+    
+}
 
+.testId {
+    display: none;
 }
 
 .page-active {
     background-color: $secondary-background;
     color: $primary-background;
+    
 }
 
 
