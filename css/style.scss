@@ -16,6 +16,16 @@ body {
     // align-content: flex-end;
     position: fixed;
     right: 0;
+    
+
+}
+
+.navigator {
+    background-color: #fff;
+    width: 100%;
+    animation: fadeIn 2s linear alternate; 
+    position: relative;
+    right: 0;
 }
 
 // #hamburger {
@@ -24,13 +34,26 @@ body {
 
 .active {
     transform: rotate(90deg);
+    
+}
 
+.testId {
+    display: none;
 }
 
 .page-active {
     background-color: $secondary-background;
     color: $primary-background;
+    content: "<h1>Hello World</h1>";
+    
 }
 
+.hideMe {
+    display: None
+}
+
+.animatedEntrance {
+    animation: lightSpeedIn 1s ease-in-out 1ms;
+}
 
 
