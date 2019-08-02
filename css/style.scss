@@ -1,9 +1,15 @@
 $primary-background: #FF4136;
+$secondary-background: #0074D9;
 
 body {
     background-color: $primary-background;
+    color: $secondary-background;
 }
 
+
+.container h1 {
+    // animation: flipIn duration timing-function delay iteration-count direction fill-mode;
+}
 
 .navigation {
     // text-align: right;
@@ -17,5 +23,14 @@ body {
 // }
 
 .active {
-    transform: scale(2)
+    transform: rotate(90deg);
+
 }
+
+.page-active {
+    background-color: $secondary-background;
+    color: $primary-background;
+}
+
+
+

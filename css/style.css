@@ -1,5 +1,6 @@
 body {
   background-color: #FF4136;
+  color: #0074D9;
 }
 
 .navigation {
@@ -8,7 +9,12 @@ body {
 }
 
 .active {
-  transform: scale(2);
+  transform: rotate(90deg);
+}
+
+.page-active {
+  background-color: #0074D9;
+  color: #FF4136;
 }
 
 /*# sourceMappingURL=style.css.map */
